@@ -27,7 +27,8 @@ contract Bolao{
     // Funcao retorna o valor total em custodia no momento
     function getSaldo() public view  returns(uint){
        return (payable(address(this))).balance; 
-    } 
+    }
+    //apagar 
 }
 
 
